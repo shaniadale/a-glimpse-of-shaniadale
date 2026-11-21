@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passion_projects>
+    <project category="graphic_design">
+        <title lang="en">Filipino-Style Lasagna Business Poster</title>
+        <description>I designed a promotional poster for a small business that is selling homemade Filipino-style lasagna. The design features a food illustration that I got from Canva, and product description, sizes, and prices that I got from the owner, and using typography and colors that they prefer to make the product appealing.</description>
+        <date>2025</date>
+    </project>
+
+    <project category="ui_ux_design">
+        <title lang="en">Bloom Mental Wellness App</title>
+        <description>As part of my group's MMS 150 group project last third trimester, I designed the Bloom app logo, color palette, typography, and UI components for our app.</description>
+        <date>2026</date>
+        <designs>
+            <design>Bloom Moodboard</design>
+            <design>Bloom UI Components</design>
+        </designs>
+    </project>
+
+    <project category="traditional_art">
+        <title lang="en">Personal Emotional Expression Artwork</title>
+        <description>On a theraphy session with UPOU Katuwang, I created a colorful artwork to reflect my feelings and emotions, using lines, shapes, and contrasting colors to express myself visually.</description>
+        <date>2025</date>
+    </project>
+</passion_projects>

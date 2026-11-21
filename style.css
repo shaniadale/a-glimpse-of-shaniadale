@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap');
+
+/* General page styling */
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    background-color: #FFF9F5;
+    color: #333333;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
+}
+
+/* Heading typography */
+h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Main heading */
+h1 {
+    color: #592436;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Section headings */
+h2 {
+    color: #592436;
+    font-size: 1.75rem;
+    margin-top: 2rem;
+}
+
+/* Smaller headings */
+h3 {
+    color: #6B2D40;
+    font-size: 1.25rem;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    color: #763449;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Passion project gallery */
+.passion-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.passion-gallery img {
+    width: 100%;
+    max-width: 280px;
+    height: 250px;
+    object-fit: contain;
+    background-color: #FFFFFF;
+    border: 1px solid #E8D5D9;
+    border-radius: 12px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+/* About Me layout */
+.about-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #E8D5D9;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .passion-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .passion-gallery img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .about-section {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+    }
+}
+```
